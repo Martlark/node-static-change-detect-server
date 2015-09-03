@@ -6,7 +6,7 @@
 
   requirements.
   =============
-  nmp install websocket
+  npm install websocket
   
   to use.
   =======
