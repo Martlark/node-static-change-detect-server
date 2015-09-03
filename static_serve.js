@@ -72,7 +72,12 @@ var server = http.createServer(function(request, response) {
         }
       });
 
-      response.writeHead(200);
+      response.writeHead(200, 
+        {
+          'Cache-Control': 'private, no-cache, no-store, must-revalidate',
+          'Expires': '-1',
+          'Pragma': 'no-cache'}
+      );
       // inject the web socket code
       file = file.replace(watchedInjectCodeTag,watchedInjectCode);
       response.write(file, "binary");
