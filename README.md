@@ -1,5 +1,6 @@
 # node-static-change-detect-server
-node js static web server with file change detection.
+node js static web server with file change detection that effects a browser refresh.  Refresh
+notice is sent to the injected code in your web page from the server using HTML web sockets.
 
 Requirements.
 =============
