@@ -9,7 +9,7 @@ npm install websocket
 
 To use.
 =======
-Place in head of your html files <meta detection-change="true"> so that it will auto 
+Place in head of your html files `<meta detection-change="true">` so that it will auto 
 refresh if any served files change.  
 
 To run server.
